@@ -3,6 +3,8 @@
 
 <head>
     <title>Energías Alternativas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" />
     <style>
         .cards-list-content {
@@ -25,22 +27,9 @@
         }
 
         .card-item-description {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-        header .header-content {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-
-            background-image: url('resources/unnamed.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 455px;
-            margin-bottom: 20px;
-        }
+            padding-left: 10px;
+            padding-right: 10px;
+        }          
 
         .hidden {
             /*visibility: hidden;*/
@@ -50,28 +39,55 @@
 </head>
 
 <body>
-    <div style="margin-left: 50px; margin-right: 50px;">
+    <div style="margin-left: 10px; margin-right: 10px;">
         <header>
 
             <div class="header-content">
-
-                <div class="hidden">
-                    <img src="resources/img-1.jpg" alt="Imagen del Header" style="width: 150px;">
-                </div>
+                <nav class="nav-main">
+                  <img src= "resources/introduccion.png" alt="Energias Alternativas Logo" class="nav-brand">
+                    <ul class="nav-menú">
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">¿Para que sirven?</a>
+                        </li>
+                        <li>
+                            <a href="#">Tipos de Energías Alternativas</a>
+                        </li>
+                        <li>
+                            <a href="#">Energía y Medio Ambiente</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-menu-right">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+               
             </div>
         </header>
         <div>
             <!--Cabecera de la página web-->
-            <div style="width: calc(100% - 150px);text-align: center;" class="header-content>
-                <nav>
-                    <a href=" #">Inicio</a>
-                <a href="#">¿Para que sirven?</a>
-                <a href="#">Tipos de Energías Alternativas</a>
-                <a href="#">Energías y Medio Ambiente</a>
-                </nav>
-            </div>
+            
+                
+            
             <!--Contenido de la página-->
-
+            <header class="showcase">
+                <h2>¿QUÉ SON LAS ENERGÍAS ALTERNATIVAS?</h2>
+            </header>
+            <header class="paragraph">
+                <p>
+                Es un sinónimo para energía limpia, energía verde o energía renovable. Se consideran alternativas todas 
+                aquellas que provienen de recursos naturales y de fuentes inagotables, todas aquellas que, al producirlas, 
+                no contaminan.
+                </p>
+            </header>
+            <img src= "resources/EA.jpg" alt="Que son Energias Alternativas" class="definition-brand">
             <footer>
                 <!--Footer de la página-->
             </footer>
